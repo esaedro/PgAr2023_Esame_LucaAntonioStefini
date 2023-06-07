@@ -14,8 +14,8 @@
 - [ ] Modulo 1.1: Lettura XML e creazione mappa
 - [x] Modulo 1.2: Creazione casuale della mappa
 - [x] Modulo 2: Nuovi mondi
-- [x] Modulo 3: Percorso suggerito
+- [ ] Modulo 3: Percorso suggerito
 - Modulo 4 ( Riciclo )
 - [ ] Modulo 4.1: Tamagolem
 - [ ] Modulo 4.2: Patente e _libbretto_ prego
-- [x] Modulo 5: Base _ ** EXTREME ** _
+- [ ] Modulo 5: Base _ ** EXTREME ** _
