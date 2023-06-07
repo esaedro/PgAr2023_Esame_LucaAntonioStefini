@@ -2,6 +2,8 @@ package arnaldo;
 
 public class Giocatore implements Mortale{
     public static final int VITE_INIZIALI = 10;
+    public static final int PUNTI_VITA_INIZIALI = 20;
+    public static final int ATTACCO_INIZIALE = 5;
     private String nome;
     private int vite;
     private int puntiVita;
@@ -9,11 +11,11 @@ public class Giocatore implements Mortale{
     private int puntiAcquisiti;
     private Nodo posizione;
 
-    public Giocatore(String nome, int puntiVita, int attacco) {
+    public Giocatore(String nome) {
         this.vite = VITE_INIZIALI;
         this.nome = nome;
-        this.puntiVita = puntiVita;
-        this.attacco = attacco;
+        this.puntiVita = PUNTI_VITA_INIZIALI;
+        this.attacco = ATTACCO_INIZIALE;
     }
 
     public int getVite() {
